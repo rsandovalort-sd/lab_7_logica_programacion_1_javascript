@@ -1,5 +1,5 @@
 
-function mayorMenor(n1, n2, n3){
+function comparadorNumeros(n1, n2, n3){
     if (n1 === n2 && n1 === n3){
         return "Todos los números sin iguales";
     }else if (n1 >= n2 && n1 >= n3 ){
@@ -35,7 +35,7 @@ function mostrarAlerta(){
     const n1 = Number(document.getElementById("numero1").value);
     const n2 = Number(document.getElementById("numero2").value);
     const n3 = Number(document.getElementById("numero3").value);
-    let resultado = mayorMenor(n1, n2, n3);
+    let resultado = comparadorNumeros(n1, n2, n3);
     alert(resultado)
 
 }
